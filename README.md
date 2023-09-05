@@ -4,4 +4,4 @@
 
 - `npm install`
 - `npm run start`
-- See memory usage climb. Increasing the `PeriodicExportingMetricReader`
+- See memory usage climb. Increasing the `PeriodicExportingMetricReader`'s interval also increases the speed at which the memory climbs, indicating the leak exists in the collection cycle.
